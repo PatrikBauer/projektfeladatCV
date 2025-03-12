@@ -24,7 +24,6 @@ while True:
                         cv2.FONT_HERSHEY_COMPLEX_SMALL,1,color,2)
             imgRoi = img[y:y+h,x:x+w]
             cv2.imshow("ROI", imgRoi)
-
     cv2.imshow("Result", img)
 
     if cv2.waitKey(1) & 0xFF == ord('s'):
